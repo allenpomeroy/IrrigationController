@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="1024" height="1024" fill="#121212"/>
+  <!-- Blue water drop with a thin pointed top -->
+  <path d="M512 900
+           C300 900, 200 600, 512 100
+           C824 600, 724 900, 512 900
+           Z" fill="#00AEEF"/>
+</svg>
