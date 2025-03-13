@@ -1,0 +1,24 @@
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    <key>NSExceptionDomains</key>
+    <dict>
+        <key>apps.pomeroy.us</key>
+        <dict>
+            <!-- Allow insecure HTTP loads for this domain -->
+            <key>NSExceptionAllowsInsecureHTTPLoads</key>
+            <true/>
+            <!-- Include subdomains if needed -->
+            <key>NSIncludesSubdomains</key>
+            <true/>
+            <!-- Disable the forward secrecy requirement -->
+            <key>NSExceptionRequiresForwardSecrecy</key>
+            <false/>
+            <!-- Optionally lower the minimum TLS version -->
+            <key>NSExceptionMinimumTLSVersion</key>
+            <string>TLSv1.0</string>
+        </dict>
+    </dict>
+</dict>
+
